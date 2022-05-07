@@ -53,8 +53,8 @@ function broadcastUpdate () {
     client.send(JSON.stringify({players: otherPlayersPositions}))
 
     // print info in the console
-    console.log(`${client.udid} - ${otherPlayers.length} players`)
-    console.log(otherPlayersPositions)
+    // console.log(`${client.udid} - ${otherPlayers.length} players`)
+    // console.log(otherPlayersPositions)
   })
 }
 
