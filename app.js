@@ -54,5 +54,5 @@ function broadcastUpdate () {
   })
 }
 
-// call broadcastUpdate every 0.1s
-setInterval(broadcastUpdate, 100)
+// call broadcastUpdate every 0.03s
+setInterval(broadcastUpdate, 30)
