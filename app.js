@@ -51,6 +51,10 @@ function broadcastUpdate () {
     var otherPlayersPositions = otherPlayers.map(udid => players[udid])
     // send it
     client.send(JSON.stringify({players: otherPlayersPositions}))
+
+    // print info in the console
+    console.log(`${client.udid} - ${otherPlayers.length} players`)
+    console.log(otherPlayersPositions)
   })
 }
 
